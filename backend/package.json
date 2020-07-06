@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "simple nodejs app",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app",
+    "dev": "nodemon src/app"
+  },
+  "author": "Vitor Augusto Silva",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^5.21.11",
+    "sequelize-cli": "^5.5.1"
+  }
+}
